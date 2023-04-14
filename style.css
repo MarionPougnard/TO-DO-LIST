@@ -1,0 +1,94 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.fondgris {
+    border-radius: 4px;
+    background-color:  #bfc9ca ;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+/* *************** */
+/*     buttons     */
+/* *************** */
+
+.buttontomato{
+    color:#FF6347;
+    border-color: #FF6347;
+}
+
+.buttontomato:hover{
+    color:white;
+    background-color: #FF6347;
+    border-color: #FF6347;
+}
+
+.buttonvert{
+    color: #58d68d;
+    border-color: #58d68d;
+}
+
+
+.buttonvert:hover{
+    color:white;
+    background-color: #58d68d;
+    border-color: #58d68d;
+    
+}
+
+.button{
+ border: solid 1px;
+ border-radius: 4px;
+ background-color: white;
+ padding: 5px;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 4px;
+}
+
+.todo {
+    display:grid;
+    grid-template-columns: 5% 85% 10%;
+}
+
+.todo + .todo{
+    margin-top:5px;
+}
+
+.todo label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+input[type='checkbox']:checked + label{
+    text-decoration: line-through;
+}
